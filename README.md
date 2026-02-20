@@ -3,6 +3,7 @@
 A ServiceNow-based automation project designed to streamline support ticket routing using custom tables, roles, groups, ACL, and Flow Designer.
 
 ---
+
 ## 👨‍💻 Team Members
 
 - G. Sravani – Users & Groups Creation  
@@ -16,7 +17,7 @@ A ServiceNow-based automation project designed to streamline support ticket rout
 ## 🎬 Demo
 
 📺 **Watch Demo:**  
-🔗 [Click to View on Google Drive](https://drive.google.com/file/d/17oMzpHHAosefjQNUXeFl3L9oXB2NTOdI/view?usp=drive_link)
+🔗 [Click to View on Google Drive](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
 
 ---
 
@@ -29,12 +30,12 @@ When a user creates a ticket and selects an issue type, the system automatically
 
 ## ✨ Key Features
 
-- Custom table: **Operations Related**
-- Automated ticket assignment
-- Role-based access control
-- ACL security implementation
-- Flow Designer automation
-- Reduced manual effort
+- Custom table: Operations Related  
+- Automated ticket assignment  
+- Role-based access control  
+- ACL security implementation  
+- Flow Designer automation  
+- Reduced manual effort  
 
 ---
 
@@ -52,31 +53,28 @@ When a user creates a ticket and selects an issue type, the system automatically
 ## ⚙️ How to Run the Project
 
 ### Step 1 — Create ServiceNow Instance
-1. Go to https://developer.servicenow.com  
-2. Create a Personal Developer Instance (PDI).
+- Go to https://developer.servicenow.com  
+- Create a Personal Developer Instance (PDI)
 
 ### Step 2 — Import Update Set
-1. Navigate to **System Update Sets → Retrieved Update Sets**  
-2. Click **Import Update Set from XML**  
-3. Upload the project update set file  
-4. Click **Preview Update Set**  
-5. Click **Commit Update Set**
+- Navigate to System Update Sets → Retrieved Update Sets  
+- Click Import Update Set from XML  
+- Upload update set file  
+- Click Preview Update Set  
+- Click Commit Update Set  
 
 ### Step 3 — Verify Components
-Ensure the following exist:
-- Operations Related table
-- Users and Groups
-- Roles
-- ACL rules
-- Flows:
-  - Regarding Certificates
-  - Regarding Platform
+- Operations Related table  
+- Users and Groups  
+- Roles  
+- ACL rules  
+- Flows (Regarding Certificates & Platform)
 
 ### Step 4 — Execute Project
-1. Open **Operations Related → New**
-2. Enter ticket details
-3. Select Issue type
-4. Click **Submit**
+- Open Operations Related → New  
+- Enter ticket details  
+- Select Issue type  
+- Click Submit  
 
 ### Step 5 — Validate Automation
 - Regarding Certificates → Assigned to Certificate Group  
@@ -87,18 +85,18 @@ Ensure the following exist:
 ## 🧪 Testing
 
 ### Functional Testing
-- Verified users, groups, and roles
-- Checked table configuration
-- Validated ACL permissions
+- Verified users, groups, and roles  
+- Checked table configuration  
+- Validated ACL permissions  
 
 ### Flow Testing
-- Created test tickets
-- Verified automatic group assignment
-- Confirmed flow execution
+- Created test tickets  
+- Verified automatic group assignment  
+- Confirmed flow execution  
 
 ### Security Testing
-- Tested role-based access
-- Verified restricted access for unauthorized users
+- Tested role-based access  
+- Verified restricted access  
 
 ---
 
@@ -110,15 +108,13 @@ Role-based access control implemented using ServiceNow roles and ACL.
 
 ## 🚀 Future Enhancements
 
-- Email notifications
-- SLA tracking
-- Dashboard reporting
-- Approval workflows
+- Email notifications  
+- SLA tracking  
+- Dashboard reporting  
+- Approval workflows  
 
 ---
 
 ## 📌 Conclusion
 
 This project successfully automates ticket assignment in ServiceNow using Flow Designer, improving operational efficiency, reducing manual work, and ensuring proper ticket routing.
-
----
